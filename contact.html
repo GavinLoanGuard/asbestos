@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Get a Free Asbestos Testing Quote in Calgary</title>
+    <meta name="description" content="Request a free asbestos testing quote for your Calgary property. We connect you with certified testing professionals. Fast response, no obligation.">
+    <link rel="canonical" href="https://calgaryasbestostesting.ca/contact">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --color-bg: #FAFAF8; --color-bg-warm: #F5F3EE; --color-text: #1A1A1A; --color-text-muted: #5A5A5A;
+            --color-primary: #2D5A4A; --color-primary-light: #3D7A64; --color-primary-dark: #1D3A32; 
+            --color-accent: #C4A35A; --color-accent-light: #E8D9B0;
+            --color-white: #FFFFFF; --color-border: #E0DDD5; --color-success: #4A9D6E;
+            --font-display: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            --radius-sm: 4px; --radius-md: 8px; --radius-lg: 16px; --radius-xl: 24px;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: var(--font-body); background: var(--color-bg); color: var(--color-text); line-height: 1.7; }
+        .nav { position: fixed; top: 0; left: 0; right: 0; background: var(--color-white); border-bottom: 1px solid var(--color-border); z-index: 1000; padding: 0 24px; }
+        .nav-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; height: 72px; }
+        .logo { font-family: var(--font-display); font-size: 1.25rem; font-weight: 600; color: var(--color-primary); text-decoration: none; display: flex; align-items: center; gap: 10px; }
+        .logo-icon { width: 36px; height: 36px; background: var(--color-primary); border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center; }
+        .logo-icon svg { width: 20px; height: 20px; fill: var(--color-white); }
+        .nav-links { display: flex; align-items: center; gap: 32px; list-style: none; }
+        .nav-links a { color: var(--color-text); text-decoration: none; font-size: 0.9375rem; font-weight: 500; }
+        .nav-cta { background: var(--color-primary); color: var(--color-white) !important; padding: 10px 20px; border-radius: var(--radius-md); }
+
+        .contact-page { padding: 120px 24px 80px; min-height: 100vh; }
+        .contact-inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1.2fr; gap: 60px; align-items: start; }
+
+        .contact-info { padding-top: 20px; }
+        .contact-info h1 { font-family: var(--font-display); font-size: clamp(2rem, 4vw, 2.75rem); font-weight: 700; line-height: 1.2; margin-bottom: 20px; }
+        .contact-info h1 span { color: var(--color-primary); }
+        .contact-info-text { font-size: 1.125rem; color: var(--color-text-muted); margin-bottom: 40px; }
+
+        .contact-methods { display: flex; flex-direction: column; gap: 24px; margin-bottom: 40px; }
+        .contact-method { display: flex; align-items: flex-start; gap: 16px; }
+        .contact-method-icon { width: 48px; height: 48px; background: var(--color-primary); border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+        .contact-method-icon svg { width: 24px; height: 24px; color: var(--color-white); }
+        .contact-method-content h3 { font-family: var(--font-display); font-size: 1rem; font-weight: 600; margin-bottom: 4px; }
+        .contact-method-content p { color: var(--color-text-muted); font-size: 0.9375rem; margin-bottom: 0; }
+        .contact-method-content a { color: var(--color-primary); text-decoration: none; font-weight: 600; font-size: 1.125rem; }
+
+        .trust-badges { display: flex; flex-direction: column; gap: 12px; }
+        .trust-badge { display: flex; align-items: center; gap: 10px; font-size: 0.9375rem; color: var(--color-text-muted); }
+        .trust-badge svg { width: 20px; height: 20px; color: var(--color-success); }
+
+        .contact-form-wrapper { background: var(--color-white); border-radius: var(--radius-xl); padding: 40px; box-shadow: 0 8px 32px rgba(0,0,0,0.08); border: 1px solid var(--color-border); }
+        .form-header { margin-bottom: 32px; }
+        .form-header h2 { font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; margin-bottom: 8px; }
+        .form-header p { color: var(--color-text-muted); font-size: 0.9375rem; }
+
+        .contact-form { display: flex; flex-direction: column; gap: 20px; }
+        .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .form-group { display: flex; flex-direction: column; gap: 8px; }
+        .form-group label { font-size: 0.9375rem; font-weight: 500; color: var(--color-text); }
+        .form-group label .required { color: var(--color-accent); }
+        .form-group input, .form-group select, .form-group textarea {
+            padding: 14px 16px; border: 1px solid var(--color-border); border-radius: var(--radius-md);
+            font-family: var(--font-body); font-size: 1rem; transition: border-color 0.2s, box-shadow 0.2s;
+            background: var(--color-bg);
+        }
+        .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+            outline: none; border-color: var(--color-primary); box-shadow: 0 0 0 3px rgba(45, 90, 74, 0.1);
+        }
+        .form-group textarea { resize: vertical; min-height: 100px; }
+
+        .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 16px 32px; border-radius: var(--radius-md); font-family: var(--font-body); font-size: 1rem; font-weight: 600; text-decoration: none; cursor: pointer; border: none; transition: all 0.2s; }
+        .btn-primary { background: var(--color-primary); color: var(--color-white); width: 100%; }
+        .btn-primary:hover { background: var(--color-primary-light); }
+        .btn svg { width: 18px; height: 18px; }
+
+        .form-disclaimer { font-size: 0.8125rem; color: var(--color-text-muted); text-align: center; margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--color-border); }
+
+        .footer { padding: 60px 24px 32px; background: var(--color-text); color: var(--color-white); }
+        .footer-inner { max-width: 1200px; margin: 0 auto; }
+        .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 48px; }
+        .footer-brand p { color: rgba(255,255,255,0.7); font-size: 0.9375rem; margin-top: 16px; }
+        .footer-title { font-family: var(--font-display); font-size: 1rem; font-weight: 600; margin-bottom: 20px; }
+        .footer-links { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+        .footer-links a { color: rgba(255,255,255,0.7); text-decoration: none; font-size: 0.9375rem; }
+        .footer-bottom { padding-top: 32px; border-top: 1px solid rgba(255,255,255,0.1); display: flex; justify-content: space-between; }
+        .footer-legal { font-size: 0.8125rem; color: rgba(255,255,255,0.5); }
+        .footer-disclaimer { font-size: 0.75rem; color: rgba(255,255,255,0.4); max-width: 500px; text-align: right; }
+
+        @media (max-width: 1024px) { .contact-inner { grid-template-columns: 1fr; } .contact-info { order: 2; } .contact-form-wrapper { order: 1; } }
+        @media (max-width: 768px) { .nav-links { display: none; } .form-row { grid-template-columns: 1fr; } .footer-grid { grid-template-columns: 1fr; } .footer-bottom { flex-direction: column; gap: 16px; text-align: center; } .footer-disclaimer { text-align: center; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="/" class="logo"><div class="logo-icon"><svg viewBox="0 0 24 24"><path d="M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.18l6.9 3.45L12 11.09 5.1 7.63 12 4.18zM4 8.82l7 3.5v7.36l-7-3.5V8.82zm9 10.86v-7.36l7-3.5v7.36l-7 3.5z"/></svg></div>Calgary Asbestos Testing</a>
+            <ul class="nav-links">
+                <li><a href="/services">Services</a></li>
+                <li><a href="/cost">Pricing</a></li>
+                <li><a href="/faq">FAQ</a></li>
+                <li><a href="/contact" class="nav-cta">Get a Quote</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="contact-page">
+        <div class="contact-inner">
+            <div class="contact-info">
+                <h1>Get Your Free <span>Asbestos Testing</span> Quote</h1>
+                <p class="contact-info-text">Tell us about your property and testing needs. We'll connect you with a certified asbestos testing professional serving Calgary and provide a no-obligation quote.</p>
+
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <div class="contact-method-icon">
+                            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                        </div>
+                        <div class="contact-method-content">
+                            <h3>Call Us</h3>
+                            <a href="tel:+14035551234">(403) 555-1234</a>
+                            <p>Available Mon-Fri, 8am-6pm</p>
+                        </div>
+                    </div>
+                    <div class="contact-method">
+                        <div class="contact-method-icon">
+                            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+                        </div>
+                        <div class="contact-method-content">
+                            <h3>Email</h3>
+                            <a href="/cdn-cgi/l/email-protection#ee87808881ae8d8f82898f9c978f9d8c8b9d9a819d9a8b9d9a878089c08d8f"><span class="__cf_email__" data-cfemail="5c35323a331c3f3d303b3d2e253d2f3e392f28332f28392f2835323b723f3d">[email&#160;protected]</span></a>
+                            <p>We respond within 2 hours</p>
+                        </div>
+                    </div>
+                    <div class="contact-method">
+                        <div class="contact-method-icon">
+                            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        </div>
+                        <div class="contact-method-content">
+                            <h3>Service Area</h3>
+                            <p>Calgary & Surrounding Communities</p>
+                            <p>Including Airdrie, Cochrane, Okotoks</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="trust-badges">
+                    <div class="trust-badge">
+                        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+                        <span>Certified Testing Professionals</span>
+                    </div>
+                    <div class="trust-badge">
+                        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+                        <span>Accredited Alberta Laboratories</span>
+                    </div>
+                    <div class="trust-badge">
+                        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+                        <span>Results in 24-48 Hours</span>
+                    </div>
+                    <div class="trust-badge">
+                        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+                        <span>Free, No-Obligation Quotes</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <div class="form-header">
+                    <h2>Request Your Quote</h2>
+                    <p>Fill out the form below and we'll get back to you within 2 hours.</p>
+                </div>
+                <form class="contact-form" action="/submit" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Your Name <span class="required">*</span></label>
+                            <input type="text" id="name" name="name" placeholder="John Smith" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number <span class="required">*</span></label>
+                            <input type="tel" id="phone" name="phone" placeholder="(403) 555-1234" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address <span class="required">*</span></label>
+                        <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="reason">Why do you need testing? <span class="required">*</span></label>
+                        <select id="reason" name="reason" required>
+                            <option value="">Select your situation...</option>
+                            <option value="renovation">Home Renovation / Demolition</option>
+                            <option value="sale">Buying or Selling a Home</option>
+                            <option value="concern">Concerned About Specific Materials</option>
+                            <option value="commercial">Commercial Property</option>
+                            <option value="inspection">Full Property Inspection</option>
+                            <option value="other">Other / Not Sure</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="property_age">Approximate Property Age</label>
+                            <select id="property_age" name="property_age">
+                                <option value="">Select if known...</option>
+                                <option value="pre-1970">Built before 1970</option>
+                                <option value="1970-1980">Built 1970-1980</option>
+                                <option value="1980-1990">Built 1980-1990</option>
+                                <option value="post-1990">Built after 1990</option>
+                                <option value="unknown">Not sure</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="timeline">When do you need testing?</label>
+                            <select id="timeline" name="timeline">
+                                <option value="">Select timeline...</option>
+                                <option value="asap">As soon as possible</option>
+                                <option value="week">Within a week</option>
+                                <option value="month">Within a month</option>
+                                <option value="planning">Just planning ahead</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="details">Additional Details (Optional)</label>
+                        <textarea id="details" name="details" placeholder="Tell us more about your property or specific materials you're concerned about..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        Get My Free Quote
+                        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </button>
+                    <p class="form-disclaimer">We connect you with certified asbestos testing professionals in Calgary. Your information is kept private and will only be used to provide your quote. No spam, ever.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="logo" style="color: white;"><div class="logo-icon"><svg viewBox="0 0 24 24"><path d="M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.18l6.9 3.45L12 11.09 5.1 7.63 12 4.18zM4 8.82l7 3.5v7.36l-7-3.5V8.82zm9 10.86v-7.36l7-3.5v7.36l-7 3.5z"/></svg></div>Calgary Asbestos Testing</a>
+                    <p>We connect Calgary homeowners with certified asbestos testing professionals.</p>
+                </div>
+                <div><h4 class="footer-title">Services</h4><ul class="footer-links"><li><a href="/asbestos-testing-calgary">Asbestos Testing</a></li><li><a href="/asbestos-inspection-calgary">Property Inspection</a></li><li><a href="/vermiculite-asbestos-testing-calgary">Vermiculite Testing</a></li></ul></div>
+                <div><h4 class="footer-title">Information</h4><ul class="footer-links"><li><a href="/cost">Testing Costs</a></li><li><a href="/faq">FAQ</a></li><li><a href="/contact">Contact Us</a></li></ul></div>
+                <div><h4 class="footer-title">Contact</h4><p style="color: rgba(255,255,255,0.7); font-size: 0.9375rem;">(403) 555-1234</p><p style="color: rgba(255,255,255,0.7); font-size: 0.9375rem;">Calgary, Alberta</p></div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">© 2025 Calgary Asbestos Testing</div>
+                <div class="footer-disclaimer">This site provides lead generation and referral services. We connect 
