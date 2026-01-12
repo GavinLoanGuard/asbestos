@@ -22,8 +22,9 @@
     --color-info: #5A8BB0;
     
     /* Typography */
-    --font-display: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-display: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-body: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
     
     /* Shadows */
     --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
